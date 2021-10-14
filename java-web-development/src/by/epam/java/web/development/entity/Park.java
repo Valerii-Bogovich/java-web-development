@@ -1,4 +1,4 @@
-package entity;
+package by.epam.java.web.development.entity;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package entity;
+package by.epam.java.web.development.entity;
 
 public class Oak extends Tree{
 

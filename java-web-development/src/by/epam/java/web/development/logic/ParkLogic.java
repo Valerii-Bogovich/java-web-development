@@ -1,7 +1,7 @@
-package logic;
+package by.epam.java.web.development.logic;
 
-import entity.Park;
-import entity.Plant;
+import by.epam.java.web.development.entity.Park;
+import by.epam.java.web.development.entity.Plant;
 
 public class ParkLogic {
 	private  Park park;

@@ -1,4 +1,4 @@
-package entity;
+package by.epam.java.web.development.entity;
 
 public abstract class Plant {
 	private int id;
@@ -66,7 +66,7 @@ public abstract class Plant {
 
 	@Override
 	public String toString() {
-		return "Plant : " + this.getClass().getTypeName() + " id= " + id + ", height=" + height ;
+		return "Plant :  id= " + id + ", height=" + height ;
 	}
 
 

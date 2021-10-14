@@ -1,4 +1,4 @@
-package logic;
+package by.epam.java.web.development.logic;
 
 import java.io.File;
 
@@ -21,17 +21,16 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 
-
-import entity.Birch;
-import entity.Blueberry;
-import entity.Bush;
-import entity.Cowberry;
-import entity.Oak;
-import entity.Park;
-import entity.Plant;
-import entity.Poplar;
-import entity.Raspberry;
-import entity.Tree;
+import by.epam.java.web.development.entity.Birch;
+import by.epam.java.web.development.entity.Blueberry;
+import by.epam.java.web.development.entity.Bush;
+import by.epam.java.web.development.entity.Cowberry;
+import by.epam.java.web.development.entity.Oak;
+import by.epam.java.web.development.entity.Park;
+import by.epam.java.web.development.entity.Plant;
+import by.epam.java.web.development.entity.Poplar;
+import by.epam.java.web.development.entity.Raspberry;
+import by.epam.java.web.development.entity.Tree;
 
 public class ParserXML {
 	private String PATH = "data\\plants.xml";
@@ -41,11 +40,7 @@ public class ParserXML {
 	private final String POPLAR = "poplar";
 	private final String BLUEBERRY = "blueberry";
 	private final String COWBERRY = "cowberry";
-	private final String RASPBERRY = "raspberry";
-	
-	
-			
-					
+	private final String RASPBERRY = "raspberry";				
     private  List<Plant> plantList = new ArrayList<Plant>();
     
 	
